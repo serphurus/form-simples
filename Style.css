@@ -1,0 +1,38 @@
+#box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#item {
+    height: 450px;
+    width: 50%;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+.bar {
+    align-items: center;
+    border-radius: 10px;
+    border-style: none;
+    height: 1.5rem;
+    width: 180px;
+    margin-top: 1rem;
+}
+
+.bar:placeholder-shown {
+    align-items: center;
+    justify-content: center;
+    font: bold;
+    color: black;
+}
